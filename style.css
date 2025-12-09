@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+h2, h3 {
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+table th {
+    background: #007bff;
+    color: #fff;
+}
+.status {
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-block;
+}
+.accepted {
+    background-color: #28a745;
+    color: white;
+}
+.rejected {
+    background-color: #dc3545;
+    color: white;
+}
+.pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+.alert {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #bee5eb;
+}
+.btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #0056b3;
+}
